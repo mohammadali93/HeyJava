@@ -1,0 +1,41 @@
+package com.class8;
+
+public class Task1 {
+public static void main(String[] args) {
+	// print numbers from 1 to 100
+	
+	for (int a=1; a<=100; a++) {
+		System.out.println(a);
+	}
+	
+	// print numbers from 100 to 1
+	
+	for (int i=100; i>=1; i--) {
+		System.out.println(i);
+	}
+	// print odd numbers from 1 to 20 (2 ways)
+	
+	for (int b=1; b<=20; b+=2) {
+		System.out.println(b);
+	}
+	// print even numbers from 20 to 1 (2 ways)
+	
+	for (int k=20; k>=1; k-=2){
+		if (k%2==1) {
+			System.out.println(k);
+		}
+	
+	}
+	
+	// print odd numbers between 20 and 50 
+	for (int m=20; m<=50; m+=2) {
+		System.out.println(m);
+		
+		// print even number between 20 and 50
+		
+		for (int t=20; t>=50; t-=2) {
+			System.out.println(t);
+		}
+	}
+}
+}
