@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	/*
 	 * not operator "!"
 	 * 
-	 * NOTES: the purpose of using not operator is it switch your answer into oppisite, just like if its true it will make it false.
+	 * NOTES: the purpose of using not operator is it switch your answer into opposite, just like if its true it will make it false.
 	 */
 	boolean a=!true;
 	
