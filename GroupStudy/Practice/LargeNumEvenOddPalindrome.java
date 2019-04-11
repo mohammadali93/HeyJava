@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	obj.largest1();
 	obj.evenOdd();
 	
-	obj.isReverse("raja");
+	obj.isReverse("mom");
 }
 void largest1() {
 	int a=56;
